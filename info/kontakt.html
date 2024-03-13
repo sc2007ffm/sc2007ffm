@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="utf-8">
+    <title>Kontakt</title>
+    <script type="text/javascript" src="javascript.js"></script>
+    <link rel="stylesheet" href="colors.css">
+    <link rel="icon" type="image/x-icon" href="">
+</head>
+<body>
+    
+    <div class="topnav">
+        <h1>TSGO Basketball</h1>
+        <a href="./index.html">Start</a>
+        <a href="./nachrichten.html">Nachrichten</a>
+        <a href="./trainingszeiten.html">Trainingszeiten</a>
+        <a class="active" href="./kontakt.html">Kontakt</a>
+        <a href="./vorstand.html">F&uuml;r Vorstandmitglieder</a>
+    </div>
+    <h1>TSG Oberursel Basketball</h1>
+<h2>Kontakt</h2>
+    <div class="anfragekontakt">
+     <form action="contact.php" method="post">
+        <label for="anfrage">Anliegen:</label>
+        <textarea type="text" id="anfrage" name="anfrage"></textarea><br><br>
+        <label for="email">Email-Addresse:</label>
+        <input type="text" id="email" name="email"><br><br>
+        <button id="Kontaktinput" onclick="kontakt()" type="submit">Kontakt aufnehmen</button>
+    </form>
+    </div>
+
+    <div class="kontaktliste">
+        <p>direkt Kontakt aufnehmen?</p>
+    <ul>
+        <li><a href="mailto:vorstand@tsgo-basketball.de">Vorstand</a></li>
+        <li><a href="mailto:Jugend@tsgo-basketball.de">Jugendbereich</a></li>
+        <li><a href="mailto:schiedsrichter@tsgo-basketball.de">Schiedsrichter</a></li>
+        <li><a href="mailto:Spielbetrieb@tsgo-basketball.de">Spielbetrieb</a></li>
+
+    </div>
+    </ul>
+    
+</body>
+</html>
